@@ -7,7 +7,7 @@ from model.LassoHomotopy import LassoHomotopyModel
 def test_predict():
     model = LassoHomotopyModel()
     data = []
-    with open("small_test.csv", "r") as file:
+    with open("/Users/ramprakashbollam/Desktop/ML/Project_1/Project1/LassoHomotopy/tests/small_test.csv", "r") as file:
         reader = csv.DictReader(file)
         for row in reader:
             data.append(row)
